@@ -1,0 +1,20 @@
+{
+    "roles": [
+        {
+            "name": "Administrator",
+            "permissions": 255
+        },
+        {
+            "name": "Teacher_V",
+            "permissions": 15
+        },
+        {
+            "name": "Teacher",
+            "permissions": 12
+        },
+        {
+            "name": "Student",
+            "permissions": 3
+        }
+    ]
+}

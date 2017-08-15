@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>联系我们</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="font/iconfont.css" />
+		<!--[if lt IE 9]>
+		    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+		<style type="text/css">
+			.demo{
+				position: relative;
+			}
+			.container{
+				position: absolute;
+				top: 50px;
+				left: 60%;
+			}
+		
+			a:hover,
+			a:focus {
+				text-decoration: none;
+				outline: none;
+			}
+			
+			#accordion {
+				padding-right: 24px;
+				padding-left: 24px;
+				z-index: 1;
+			}
+			
+			#accordion .panel {
+				border: none;
+				box-shadow: none;
+			}
+			
+			#accordion .panel-heading {
+				padding: 0;
+				border-radius: 0;
+				border: none;
+			}
+			
+			#accordion .panel-title {
+				padding: 0;
+			}
+			
+			#accordion .panel-title a {
+				display: block;
+				font-size: 16px;
+				font-weight: bold;
+				background: #19375b;
+				color: #FFFFFF;
+				padding: 15px 25px;
+				position: relative;
+				margin-left: -24px;
+				transition: all 0.3s ease 0s;
+			}
+			
+			#accordion .panel-title a.collapsed {
+				background: #33475f;
+				color: #FFFFFF;
+				margin-left: 0;
+				transition: all 0.3s ease 0s;
+			}
+			
+			#accordion .panel-title a:before {
+				content: "";
+				border-left: 24px solid #0f3159;
+				border-top: 24px solid transparent;
+				border-bottom: 24px solid transparent;
+				position: absolute;
+				top: 0;
+				right: -24px;
+				transition: all 0.3s ease 0s;
+			}
+			
+			#accordion .panel-title a.collapsed:before {
+				border-left-color: #33475f;
+			}
+			
+			#accordion .panel-title a:after {
+				content: "\f0366";
+				font-family: 'iconfont';
+				position: absolute;
+				top: 30%;
+				right: 15px;
+				font-size: 18px;
+				color: #FFFFFF;
+			}
+			
+			#accordion .panel-title a.collapsed:after {
+				content: "\f0364";
+				color: #FFFFFF;
+			}
+			
+			#accordion .panel-collapse {
+				position: relative;
+			}
+			
+			#accordion .panel-collapse.in:before {
+				content: "";
+				border-right: 24px solid #33475f;
+				border-bottom: 18px solid transparent;
+				position: absolute;
+				top: 0;
+				left: -24px;
+			}
+			
+			#accordion .panel-body {
+				font-size: 14px;
+				color: #333;
+				background: #e4e4e4;
+				border-top: none;
+				z-index: 1;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div class="top">
+			<div class="wrapper clearfix">
+				<ul class="left">
+					<img class="left" src="img/a39-1.png" alt="" height="90px"/>
+					<img class="left" src="img/016-1.png" alt="" height="90px"/>
+				</ul>
+				<ul class="right">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="Studies.html">学习考研</a></li>
+					<li><a href="CampusNews.html">大学新闻</a></li>
+					<li><a href="SuperClub.html">超级社团</a></li>
+					<li><a href="Social.html">社会评价</a></li>
+					<li><a href="AboutUs.html">关于我们</a></li>
+					<li class="active"><a href="CallUs.html">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!--center-->
+		<div class="demo">
+			<div class="container wrapper">
+				<div class="row">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingOne">
+									<h4 class="panel-title">
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									李登铭
+								</a>
+							</h4>
+								</div>
+								<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									<div class="panel-body">
+										<p>联系电话：12342353253</p>
+										<p>QQ：23562353</p>
+										<p>微信：hsd3565</p>
+										<p>微博：lie347347457</p>
+										<p>联系电话：12342353253</p>
+										<p>QQ：23562353</p>
+										<p>微信：hsd3565</p>
+										<p>微博：lie347347457</p>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingTwo">
+									<h4 class="panel-title">
+								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									张振
+								</a>
+							</h4>
+								</div>
+								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									<div class="panel-body">
+										<p>联系电话：12342353253</p>
+										<p>QQ：23562353</p>
+										<p>微信：hsd3565</p>
+										<p>微博：lie347347457</p>
+										<p>联系电话：12342353253</p>
+										<p>QQ：23562353</p>
+										<p>微信：hsd3565</p>
+										<p>微博：lie347347457</p>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingThree">
+									<h4 class="panel-title">
+								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									单若宁
+								</a>
+							</h4>
+								</div>
+								<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									<div class="panel-body">
+										<p>联系电话：12342353253</p>
+										<p>QQ：23562353</p>
+										<p>微信：hsd3565</p>
+										<p>微博：lie347347457</p>
+										<p>联系电话：12342353253</p>
+										<p>QQ：23562353</p>
+										<p>微信：hsd3565</p>
+										<p>微博：lie347347457</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--banner-->
+		
+		<img src="img/BJ-1.png" alt="" width="100%" />
+		
+		<div class="wrapper title1 clearfix" style="margin-top:10px; margin-bottom: 5px;">
+			<img class="left" src="img/016.png" width="70px" height="40px" />
+			<span class="left">--联系我们</span>
+		</div>
+		
+		<div class="wrapper box" style="margin-bottom: 70px;">
+			<p>中国中等学校和高等学校学生在自愿基础上自发组织而成、按照章程自主开展活动的学生群众组织。这些社团可打破年级、
+				系科以及学校的界限。团结兴趣爱好相近的同学，发挥他们在某方面的特长，开展有益于学生身心健康的活动。</p>
+			<p>学生社团形式多种多样，如学术问题、社会问题的讨论研究会，文学艺术、体育、音乐、美术、影视等方面组成的活动小组，
+				有文艺社、棋艺社、摄影社、美术社、歌唱队、话剧团、篮球队、足球队、数学社、物理社、化学社、微电影社团等等。 
+				大学生社团是我国校园文化建设的重要载体，是我国高校第二课堂的引领者。每年各社团以其具有思想性、艺术性、知识性、
+				趣味性、多样性的社团生活吸引广大学生积极参与其中。</p>
+			<p>学生社团必须自觉接受学校团委、各院系团委的领导，必须遵守宪法、法律以及学校各项规章制度。社团活动不得妨碍学校各
+				类正常工作和教学、生活秩序。学生社团的会员应当是具有正式学籍的在校学生。学生社团不得从事以营利为目的的经营性
+				活动。学生社团的基本任务是：适应社会发展需要，适应教育改革及学生成长成才的需要，积极开展健康有益、丰富多彩的
+				课外科技文化艺术活动，促进学生德、智、体、美、劳全面发展。高校社团不仅要给大学生一个锻炼的机会，而且要走向社会，
+				让社会了解它们，建立沟通联络的渠道，为高校学习、生活和工作服务，并且，还要让学校与学校建立联系，学生团体与学生
+				团体建立联系，学生与学生建立联系，社会团体与社会团体建立联系，互补长短。</p>
+		</div>
+		
+		<!--bottom-->
+		<div class="clear"></div>
+		<div class="foot">
+			<ul class="clearfix">
+				<li><a href="#"><img class="img-responsive" src="img/011.png" alt=""/></a></li>
+				<li><a href="#"><img class="img-responsive" src="img/009.png" alt=""/></a></li>
+				<li><a href="#"><img class="img-responsive" src="img/010.png" alt=""/></a></li>
+				<li><a href="#"><img class="img-responsive" src="img/008.png" alt=""/></a></li>
+			</ul>
+			<p>联系方式：13731780687&nbsp;&nbsp;&nbsp;QQ：1204050023&nbsp;&nbsp;&nbsp;微信：asf346</p>
+			<p>唐小二创始人：李登铭、张振、单若宁</p>
+			<p>IPC备案号：16018400</p>
+		</div>
+	
+		
+		<!--<script>
+			(function() {
+				var s = document.createElement("script");
+				s.onload = function() { bootlint.showLintReportForCurrentDocument([]); };
+				s.src = "js/bootlint.js";
+				document.body.appendChild(s)
+			})();
+		</script>-->
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js" ></script>
+		<script type="text/javascript" src="js/animate.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+	</body>
+</html>

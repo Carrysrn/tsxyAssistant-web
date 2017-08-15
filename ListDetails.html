@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>列表详情</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<!--[if lt IE 9]>
+		    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<style>
+			.wrap {
+				width: 1200px;
+				margin: 10px auto 20px;
+			}
+			
+			table {
+				border-collapse: collapse;
+				border-spacing: 0;
+				border: 1px solid #c0c0c0;
+				width: 1200px;
+			}
+			
+			th,
+			td {
+				border: 1px solid #d0d0d0;
+				color: #404060;
+				padding: 10px;
+			}
+			
+			th input,
+			td input{
+				width: 17px;
+				height: 17px;
+			}
+			
+			th {
+				background-color: #09c;
+				font: bold 16px "微软雅黑";
+				color: #fff;
+			}
+			
+			td {
+				text-align: center;
+				font: 14px "微软雅黑";
+			}
+			
+			tbody tr {
+				background-color: #f0f0f0;
+			}
+			
+			tbody tr:hover {
+				cursor: pointer;
+				background-color: #fafafa;
+			}
+			
+			/*11111111111111111111111111*/
+			body{
+				position: relative;
+			}
+			.top{
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				background: rgba(0,0,0,0);
+			}
+		</style>
+	</head>
+
+	<body>
+		<img src="img/251.jpg" alt="" width="100%" />
+			
+		<div class="top">
+			<div class="wrapper clearfix">
+				<ul class="left">
+					<img class="left" src="img/a39-1.png" alt="" height="90px" />
+					<img class="left" src="img/016-1.png" alt="" height="90px" />
+				</ul>
+				<ul class="right">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="Studies.html">学习考研</a>
+					</li>
+					<li>
+						<a href="CampusNews.html">大学新闻</a>
+					</li>
+					<li>
+						<a href="SuperClub.html">超级社团</a>
+					</li>
+					<li>
+						<a href="Social.html">社会评价</a>
+					</li>
+					<li>
+						<a href="AboutUs.html">关于我们</a>
+					</li>
+					<li>
+						<a href="CallUs.html">联系我们</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--center-->
+		
+		<div class="wrapper title1 clearfix" style="margin-top: 10px; margin-bottom: 5px;">
+			<img class="left" src="img/016.png" width="70px" height="40px" />
+			<span class="left">--列  表  详  情</span>
+		</div>
+		
+		
+		<div class="wrap">
+			<table>
+				<thead>
+					<tr>
+						<th>
+							<input type="checkbox" id="j_cbAll" />
+						</th>
+						<th>内容</th>
+						<th>课程</th>
+						<th>教师</th>
+					</tr>
+				</thead>
+				<tbody id="j_tb">
+					<tr>
+						<td>
+							<input type="checkbox" />
+						</td>
+						<td>班级</td>
+						<td>XXX</td>
+						<td>XXX</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox" />
+						</td>
+						<td>教室</td>
+						<td>XXX</td>
+						<td>XXX</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox" />
+						</td>
+						<td>单双周</td>
+						<td>XXX</td>
+						<td>XXX</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox" />
+						</td>
+						<td>上课周次</td>
+						<td>XXX</td>
+						<td>XXX</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox" />
+						</td>
+						<td>上课时间</td>
+						<td>XXX</td>
+						<td>XXX</td>
+					</tr>
+
+				</tbody>
+			</table>
+		</div>
+		
+		<div class="wrapper mint clearfix">
+			<p><a href="#">修改信息</a></p>
+			<p><a href="#">删除信息</a></p>
+		</div>
+
+
+		<!--bottom-->
+		<div class="clear"></div>
+		<div class="foot">
+			<ul class="clearfix">
+				<li>
+					<a href="#"><img class="img-responsive" src="img/011.png" alt="" /></a>
+				</li>
+				<li>
+					<a href="#"><img class="img-responsive" src="img/009.png" alt="" /></a>
+				</li>
+				<li>
+					<a href="#"><img class="img-responsive" src="img/010.png" alt="" /></a>
+				</li>
+				<li>
+					<a href="#"><img class="img-responsive" src="img/008.png" alt="" /></a>
+				</li>
+			</ul>
+			<p>联系方式：13731780687&nbsp;&nbsp;&nbsp;QQ：1204050023&nbsp;&nbsp;&nbsp;微信：asf346</p>
+			<p>唐小二创始人：李登铭、张振、单若宁</p>
+			<p>IPC备案号：16018400</p>
+		</div>
+
+		<!--<script>
+			(function() {
+				var s = document.createElement("script");
+				s.onload = function() { bootlint.showLintReportForCurrentDocument([]); };
+				s.src = "js/bootlint.js";
+				document.body.appendChild(s)
+			})();
+		</script>-->
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/animate.js"></script>
+		
+		<script>
+			var all = document.getElementById("j_cbAll");
+			var tbody = document.getElementById("j_tb");
+			var checkboxs = tbody.getElementsByTagName("input");
+			all.onclick = function() {
+				for(var i = 0; i < checkboxs.length; i++) {
+					var checkbox = checkboxs[i];
+					checkbox.checked = this.checked;
+				}
+			};
+			for(var i = 0; i < checkboxs.length; i++) {
+				checkboxs[i].onclick = function() {
+					var isCheckedAll = true;
+					for(var i = 0; i < checkboxs.length; i++) {
+						if(!checkboxs[i].checked) {
+							isCheckedAll = false;
+							break;
+						}
+					}
+					all.checked = isCheckedAll;
+				};
+			}
+		</script>
+	</body>
+
+</html>

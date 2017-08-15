@@ -1,0 +1,28 @@
+{
+    "permissions": [
+        {
+            "permission": "ADMINISTER",
+            "value": 128
+        },
+        {
+            "permission": "MODIFY",
+            "value": 16
+        },
+        {
+            "permission": "VIEW_ALL_SCHEDULE",
+            "value": 4
+        },
+        {
+            "permission": "VIEW_ALL_SCORE",
+            "value": 8
+        },
+        {
+            "permission": "VIEW_SCHEDULE",
+            "value": 1
+        },
+        {
+            "permission": "VIEW_SCORE",
+            "value": 2
+        }
+    ]
+}
